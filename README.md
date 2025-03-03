@@ -13,10 +13,6 @@
   <a src="#" target="_blank"><img src="./src/images/example.png" width="100%" height="auto" /></a>
 </p>
  
-## 👊🏻 Agradecimentos antes de começar...
-Esse projeto foi criado utilizando como base, 2 projetos distintos, sendo eles:
-+ https://github.com/raminhuk/react-todo-list
-+ https://github.com/abdulsamadayoade/redux-todo
 
 Utilizando a estrutura REDUX do projeto **redux-todo** e toda parte de layout e estrutura REACT do projeto **react-todo-list**, eu apenas fiz a conversão dos projetos para Typescript coma  ajuda do Vite e unifiquei juntando ambos em um só.
 
