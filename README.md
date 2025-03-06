@@ -7,11 +7,6 @@
 
  Uma lista de tarefas simples utilizando algumas das tecnologias mais recentes!
 
- <p align="center">
-  <a src="#" target="_blank"><img src="./src/images/example.png" width="100%" height="auto" /></a>
-</p>
- 
-
 Utilizando a estrutura REDUX do projeto **redux-todo** e toda parte de layout e estrutura REACT do projeto **react-todo-list**, eu apenas fiz a conversão dos projetos para Typescript coma  ajuda do Vite e unifiquei juntando ambos em um só.
 
 ## ❓ Intuito do projeto
