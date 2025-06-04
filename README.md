@@ -1,41 +1,82 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/edd8203e-6bcd-480f-ab95-80650a7fbf9d/deploy-status)](https://app.netlify.com/sites/iridescent-praline-f9b50f/deploys)
+# ✅ Lista de Tarefas
 
-# Todo React TS Redux
-[![nodejs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/) [![typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
-)](https://www.typescriptlang.org/) [![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://pt-br.reactjs.org/) [![redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white
-)](https://redux.js.org/) [![chakraui](https://img.shields.io/badge/Chakra%20UI-38B2AC?style=for-the-badge&logo=chakraui&logoColor=white)](https://chakra-ui.com/) [![reacticons](https://img.shields.io/badge/React%20Icons-E91E63?style=for-the-badge&logo=react&logoColor=white)](https://react-icons.github.io/react-icons/)
+Uma aplicação web desenvolvida com React, TypeScript e Redux para gerenciar suas tarefas de forma eficiente e organizada.
 
- Uma lista de tarefas simples utilizando algumas das tecnologias mais recentes!
+🔗 [Acesse a aplicação online](https://lista-de-tarefas-dev.vercel.app)
 
-Utilizando a estrutura REDUX do projeto **redux-todo** e toda parte de layout e estrutura REACT do projeto **react-todo-list**, eu apenas fiz a conversão dos projetos para Typescript coma  ajuda do Vite e unifiquei juntando ambos em um só.
+---
 
-## ❓ Intuito do projeto
-Eu montei esse projeto apenas para estudar, espero que assim como os projetos citados acima me ajudaram, esse projeto possa ajudar você também :)
+## ✨ Funcionalidades
 
-## ⚠️ Aviso
-No console do DevTools, o projeto apresenta uma mensagem de incompatibilida com o recurso React.render na versão 18 do React, o problema é causado pelo **Toast** do Chakra UI e os desenvolvedores do framework já estão sabendo do ocorrido.
+- 📄 Adicionar Tarefas
+- ✏️ Editar Tarefas
+- ✅ Marcar como Concluída
+- 🗑️ Excluir Tarefas
+- 🔍 Filtrar Tarefas
+- 📱 Design Responsivo
 
-## 🚀 Vamos começar?
-Caso deseje testar esse projeto, siga os passos abaixo!
+---
 
+## 🚀 Tecnologias Utilizadas
 
-+ Primeiro clone este repositório 
-```jsx
-git clone https://github.com/linhous/todo-ts-redux.git
+- React
+- TypeScript
+- Redux
+- Vite
+- Chakra UI
+- React Icons
+
+---
+
+## 🛠️ Como Executar Localmente
+
+### Pré-requisitos
+
+- Node.js (versão 16 ou superior)
+- npm ou yarn
+
+### Passo a passo
+
+```bash
+git clone https://github.com/devJPMello/Lista-de-tarefas.git
+cd Lista-de-tarefas
+npm install     # ou yarn
+npm run dev     # ou yarn dev
 ```
-+ Entre na pasta todo-ts-redux
-```jsx
-cd todo-ts-redux
+
+Abra no navegador: [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 📁 Estrutura de Pastas
+
 ```
-+ Execute npm install para instalar as dependências 
-```jsx
-npm install
+Lista-de-tarefas/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── store/
+│   ├── styles/
+│   ├── App.tsx
+│   └── main.tsx
+├── index.html
+├── package.json
+├── tsconfig.json
+└── README.md
 ```
-+ Execute npm run dev para rodar o projeto em http://localhost:3000/
-```jsx
-npm start
-``` 
-+ Caso deseje buildar o projeto
-```jsx
-npm run build
-``` 
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+---
+
+## 🙋‍♂️ Autor
+
+Desenvolvido por [João Pedro Mendes de Mello](https://github.com/devJPMello)
+
+Sinta-se à vontade para explorar, utilizar e contribuir para este projeto!
